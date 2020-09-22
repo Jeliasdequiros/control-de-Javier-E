@@ -1,4 +1,49 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+body{
+    width: 887px;
+    box-sizing: border-box;
+}
 
+.superior{
+    display: flex;
+    justify-content: center;
+}
+
+.datospersonales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.datospaypal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAF5FB;
+    font-size: 36px;
+    color: #8D3B95;
+}
+
+.datosprecio_grande{
+    font-size: 280px;
+    text-align: center;
+    
+}
+
+.datosprecio_bolso{
+    font-size: 54px;
+    text-align: center;
+}
+
+p{
+    background-color: #FAC8FF;
+}
+
+.boton{
+    background-color: black;
+    color: white
+    
+}
